@@ -9,9 +9,7 @@
   },
   "author": "Huzaifa Al Nahas",
   "license": "MIT",
-  "dependencies": {
-    "express-generator": "^4.16.1"
-  },
+  "dependencies": {},
   "engines": {
     "npm": "6.13.4",
     "node": "12.16.1"
