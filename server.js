@@ -11,6 +11,8 @@ var favicon = require('serve-favicon');
 // app.use(bodyParser.json());
 app.use(cors());
 
+app.use(favicon(__dirname + '/favicon.ico'));
+
 // api routes
 app.get("/api/request", (req, res, next) => {
     if (req.query.number == 404)
