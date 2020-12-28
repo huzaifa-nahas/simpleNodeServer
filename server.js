@@ -23,7 +23,7 @@ app.get("/api/request", (req, res, next) => {
 });
 
 // start server
-const port = config.env === 'production' ? 80 : config.port;
+const port = config.env === 'production' ? 8080 : config.port;
 const server = app.listen(port, function() {
     console.log('Server listening on port ' + port);
 });
