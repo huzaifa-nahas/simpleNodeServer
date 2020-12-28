@@ -3,6 +3,7 @@ const app = express();
 const cors = require('cors');
 // const bodyParser = require('body-parser');
 const config = require('./config');
+var favicon = require('serve-favicon');
 
 // app.use(bodyParser.urlencoded({
 //     extended: false
