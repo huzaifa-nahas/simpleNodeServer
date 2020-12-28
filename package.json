@@ -9,7 +9,9 @@
   },
   "author": "Huzaifa Al Nahas",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "cors": "^2.8.5"
+  },
   "engines": {
     "npm": "6.13.4",
     "node": "12.16.1"
